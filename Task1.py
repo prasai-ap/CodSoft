@@ -31,3 +31,4 @@ elif option==3:
 elif option == 4:
     file=open('todolist','r')
     print(file.read())
+file.close()
